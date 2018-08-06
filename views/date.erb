@@ -1,0 +1,6 @@
+<!-- Using ERB tags, and the DateTime library, display today's date in a "p"
+tag. The date should be formatted to look something like this The date is
+Wednesday, November 18, 2015. -->
+<!-- http://ruby-doc.org/stdlib-2.3.1/libdoc/date/rdoc/DateTime.html
+#method-i-strftime -->
+<p>The date is <%=DateTime.now.strftime("%A, %B %d, %Y")%></p>
